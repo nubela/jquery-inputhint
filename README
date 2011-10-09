@@ -1,0 +1,5 @@
+// author: nubela
+// github.com/nubela
+
+// Usage: $(obj).inputHint(hint, color_for_hint_text, color_for_actual_input)
+// Example: $(".emailadddress").inputHint("your email address..", "#ffffff", "#383838");
