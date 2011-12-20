@@ -5,6 +5,11 @@
 
 jQuery.fn.inputHint = function(hint, hintColor, actualColor) {
 	
+	//init
+	$(this).val(hint);
+	$(this).css("color", hintColor);
+	
+	//events
 	$(this).focus(function() {
 		var val = $(this).val();
 		
